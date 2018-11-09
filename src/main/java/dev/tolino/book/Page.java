@@ -8,6 +8,11 @@ public class Page {
     int mPageNr;
     List<Mark> mMarks = new ArrayList();
 
+    public Page(int pPageNr, String pLiteral) {
+        mPageNr = pPageNr;
+        mLiteral = pLiteral;
+    }
+
     public String getmLiteral() {
         return mLiteral;
     }

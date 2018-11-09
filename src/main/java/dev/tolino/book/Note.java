@@ -23,8 +23,8 @@ public class Note extends Mark {
     }
 
 
-    public Note(LocalDateTime pTS) {
-        super(pTS);
+    public Note(LocalDateTime pTS, Page pParent) {
+        super(pTS, pParent);
     }
 
 }
